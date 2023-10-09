@@ -1,4 +1,4 @@
-# HTML/CSS Business Card Exercise
+# HTML/CSS Presentation Card Exercise
 
 This project contains the source code and necessary resources to create an elegant business card using HTML and CSS.
 
