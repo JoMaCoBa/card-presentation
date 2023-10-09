@@ -5,6 +5,18 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+:root {
+
+    --deep-cerulean: #0071ad;
+    --cerulean: #00aacc;
+    --blaze-orange: #ff6600;
+    --supernova: #ffcc00;
+    --scorpion: #595959;
+    --snow: #FFFBFE;
 
 }
 
@@ -25,8 +37,8 @@ main {
     width: 500px;
     height: 800px;
     border-radius: 20px;
-    box-shadow: 0px 8px 16px black;
-    background-color: antiquewhite;
+    box-shadow: 0px 4px 8px var(--scorpion);
+    background-color: var(--snow);
     overflow: hidden;
 
 }
@@ -44,7 +56,7 @@ main {
 .card__information {
 
     width: 100%;
-    height: 200px;
+    height: auto;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -57,7 +69,7 @@ main {
     height: 170px;
     width: 170px;
     border-radius: 50%;
-    border: solid 2px antiquewhite;
+    border: solid 4px var(--snow);
     position: absolute;
     bottom: 115px;
 
@@ -65,13 +77,103 @@ main {
 
 .information__container{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 110px;
 
 }
 
 .information__name {
 
-    
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--deep-cerulean);
+
+}
+
+.card__about-me {
+
+    margin: 16px;
+
+}
+
+.about-me__container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-me__title {
+
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--deep-cerulean);
+
+}
+
+.about-me__description {
+
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.socialmedia__container {
+
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.socialmedia__title {
+
+    display: flex;
+    align-items: center;
+    color: var(--deep-cerulean);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.carrousel {
+
+    display: flex;
+
+}
+
+.socialmedia__card {
+
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cerulean);
+    box-shadow: 0px 3px 13px var(--scorpion);
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.socialmedia__card:hover {
+
+    background-color: var(--deep-cerulean);
+
+}
+
+.icon {
+
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    object-position: center;
 
 }
 
