@@ -10,7 +10,7 @@ The aim of this project is to practice and showcase front-end web design skills.
 
 - `index.html`: Main file containing the HTML structure of the business card.
 - `styles.css`: CSS stylesheet defining the appearance and layout of the card.
-- `img/`: Folder storing images and resources used in the card.
+- `assets/`: Folder storing images and resources used in the card.
 
 ## Instructions
 
